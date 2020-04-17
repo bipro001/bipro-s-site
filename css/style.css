@@ -1,0 +1,134 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Baloo Paaji 2', cursive;
+  line-height: 20px;
+}
+h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 4.6875rem;
+  color:  #66BFBF;
+  padding-bottom:10px;
+}
+h2{
+  font-size: 2.5rem;
+  color:  #66BFBF;
+  padding: 20px;
+  margin: 40px;
+}
+h3{
+  color:  #11999E;
+  margin: 30px;
+  font-size: 1.5rem;
+}
+  a{
+    color:  #11999E;
+  }
+p{
+  line-height: 2;
+  font-size: 1.5rem;
+}
+
+.top-container{
+  background-color: #b2ebf2;
+padding-top: 100px;
+margin-bottom: 50px;
+}
+
+.top-cloud{
+  position: absolute;
+  left: 60%;
+  top: 30%;
+}
+.bottom-cloud{
+  position: absolute;
+  top:40%
+}
+.profile-pic{
+width: 300px;
+height: 300px;
+
+  border-radius:50%;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px  auto;
+}
+.study-pic{
+  height: 200px;
+  border: solid;
+  background-color: #6983aa;
+  border-radius: 60%;
+  float: left;
+  margin-right: 50px;
+
+}
+.eat-pic{
+  height: 200px;
+    border-radius: 60%;
+    border: solid;
+    float: right;
+    margin-left: 50px;
+
+}
+.title{
+  font-weight: normal;
+}
+hr{
+  border-style: dotted none none none;
+  border-width: 7px;
+  border-color: #EAF6F6;
+  width: 5%;
+  margin: 100px auto;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding-top:  70px;
+  padding-bottom: 50px;
+  margin-top: 70px;
+}
+.copyright{
+  color:#EAF6F6
+}
+.footer-link{
+  padding: 30px;
+  color:#11999E;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.profile{
+  margin-bottom: 50px;
+}
+.contact-me{
+  margin-top: 30px;
+}
+.btn{
+  margin: 40px;
+}
+.contact-me-on{
+  margin-bottom: 50px;
+}
+.myButton {
+	background-color:#18c2b4;
+	border-radius:12px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Baloo Paaji 2', cursive;
+	font-size:17px;
+	padding:19px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#085f6b;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
